@@ -1,5 +1,3 @@
-
-
 \# 🌦️ Weather Forecast \& Alert Application
 
 
@@ -22,7 +20,7 @@
 
 
 
-The \*\*Weather Forecast \& Alert Application\*\* is a Python-based real-time weather monitoring system that fetches weather data using APIs and generates intelligent alerts for extreme conditions like:
+The \*\*Weather Forecast \& Alert Application\*\* is a Python-based real-time system that fetches weather data and generates alerts.
 
 
 
@@ -32,205 +30,7 @@ The \*\*Weather Forecast \& Alert Application\*\* is a Python-based real-time we
 
 \- 🌬️ Wind Alerts  
 
-\- 🌫️ Weather Condition Alerts  
-
-
-
-It includes a \*\*Streamlit dashboard\*\* for visualization.
-
-
-
-\---
-
-
-
-\## 🎯 Problem Statement
-
-
-
-Weather changes can affect travel, farming, logistics, and outdoor planning.
-
-
-
-This system solves that by:
-
-
-
-\- Providing real-time weather updates  
-
-\- Generating automated alerts  
-
-\- Helping in decision-making  
-
-
-
-\---
-
-
-
-\## 🏭 Industry Use Cases
-
-
-
-\- 🚚 Logistics \& Transport  
-
-\- 🌾 Agriculture  
-
-\- 🎪 Event Planning  
-
-\- ✈️ Aviation  
-
-\- ⚡ Disaster Management  
-
-
-
-\---
-
-
-
-\## 🧠 Features
-
-
-
-\- 🌍 Real-time weather API integration  
-
-\- ⚠️ Smart alert system  
-
-\- 📊 Streamlit dashboard  
-
-\- 📁 Report generation  
-
-\- 🔄 Modular Python architecture  
-
-\- 🧪 Simulation support  
-
-
-
-\---
-
-
-
-\## 🛠️ Tech Stack
-
-
-
-\- Python  
-
-\- FastAPI  
-
-\- Streamlit  
-
-\- Requests  
-
-\- Pandas  
-
-\- OpenWeatherMap / Open-Meteo API  
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
-
-```
-
-
-
-Weather Forecast \& Alert Application/
-
-│
-
-├── src/
-
-├── api/
-
-├── dashboard/
-
-├── jobs/
-
-├── reports/
-
-├── images/
-
-├── main.py
-
-├── requirements.txt
-
-└── README.md
-
-
-
-````
-
-
-
-\---
-
-
-
-\## ⚙️ How to Run Project
-
-
-
-\### 1️⃣ Install dependencies
-
-```bash
-
-pip install -r requirements.txt
-
-````
-
-
-
-\### 2️⃣ Run FastAPI backend
-
-
-
-```bash
-
-uvicorn api.app:app --reload
-
-```
-
-
-
-\### 3️⃣ Run Streamlit dashboard
-
-
-
-```bash
-
-streamlit run dashboard/streamlit\_app.py
-
-```
-
-
-
-\---
-
-
-
-\## 🔐 API Setup
-
-
-
-Create `.env` file:
-
-
-
-```
-
-API\_KEY=your\_api\_key\_here
-
-```
-
-
-
-⚠️ Never upload `.env` to GitHub
+\- 🌫️ Weather Alerts  
 
 
 
@@ -242,39 +42,21 @@ API\_KEY=your\_api\_key\_here
 
 
 
-\### 🏠 Dashboard UI
-
-
+\### Dashboard
 
 !\[Dashboard](images/dashboard.png)
 
 
 
-\---
-
-
-
-\### 🌤️ Weather API Output
-
-
+\### Weather Output
 
 !\[Weather](images/weather.png)
 
 
 
-\---
+\### Alerts
 
-
-
-\### ⚠️ Alerts System
-
-
-
-!\[Temp Trend](images/temp\_trend\_alert.png)
-
-
-
-!\[Hourly Data](images/hour\_data.png)
+!\[Alerts](images/temp\_trend\_alert.png)
 
 
 
@@ -282,73 +64,21 @@ API\_KEY=your\_api\_key\_here
 
 
 
-\## 📊 Sample Output
+\## ⚙️ Run Project
 
 
 
-```
+```bash
 
-City: Delhi  
+pip install -r requirements.txt
 
-Temperature: 34°C  
+uvicorn api.app:app --reload
 
-Condition: Clear Sky  
+streamlit run dashboard/streamlit\_app.py
 
-Alert: Heatwave Warning ⚠️
-
-```
-
-
-
-\---
-
-
-
-\## 💡 Key Learnings
-
-
-
-\* API integration in Python
-
-\* FastAPI backend development
-
-\* Real-time data processing
-
-\* Rule-based alert system
-
-\* Streamlit dashboard
-
-
-
-\---
-
-
-
-\## 🚀 Future Improvements
-
-
-
-\* SMS/Email alerts
-
-\* AI weather prediction
-
-\* Map visualization
-
-\* Mobile app version
-
-\* Multi-city tracking
-
-
-
-\---
-
-
-
-\## 👨‍💻 Author
+👨‍💻 Author
 
 
 
 Sanskritika Awasthi
-
-
 
