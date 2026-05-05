@@ -54,6 +54,8 @@ Weather changes can affect travel, farming, logistics, and outdoor planning.
 
 This system solves that by:
 
+
+
 \- Providing real-time weather updates  
 
 \- Generating automated alerts  
@@ -286,11 +288,11 @@ API\_KEY=your\_api\_key\_here
 
 ```
 
-City: Delhi
+City: Delhi  
 
-Temperature: 34°C
+Temperature: 34°C  
 
-Condition: Clear Sky
+Condition: Clear Sky  
 
 Alert: Heatwave Warning ⚠️
 
