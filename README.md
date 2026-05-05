@@ -1,20 +1,4 @@
-Your README is almost correct — the issue is \*\*not your images\*\*, it is \*\*Markdown formatting + file placement\*\*.
 
-
-
-I’ll fix everything and give you a \*\*clean, working, GitHub-rendered README.md\*\*.
-
-
-
-\---
-
-
-
-\# ✅ 🔥 FULL FIXED README.md (COPY–PASTE THIS)
-
-
-
-```markdown id="readmefinal"
 
 \# 🌦️ Weather Forecast \& Alert Application
 
@@ -236,7 +220,7 @@ Create `.env` file:
 
 
 
-```text
+```
 
 API\_KEY=your\_api\_key\_here
 
@@ -252,11 +236,11 @@ API\_KEY=your\_api\_key\_here
 
 
 
-\# 📸 Screenshots
+\## 📸 Screenshots
 
 
 
-\## 🏠 Dashboard UI
+\### 🏠 Dashboard UI
 
 
 
@@ -268,7 +252,7 @@ API\_KEY=your\_api\_key\_here
 
 
 
-\## 🌤️ Weather API Output
+\### 🌤️ Weather API Output
 
 
 
@@ -280,7 +264,7 @@ API\_KEY=your\_api\_key\_here
 
 
 
-\## ⚠️ Alerts System
+\### ⚠️ Alerts System
 
 
 
@@ -300,7 +284,7 @@ API\_KEY=your\_api\_key\_here
 
 
 
-```text
+```
 
 City: Delhi
 
@@ -362,7 +346,7 @@ Alert: Heatwave Warning ⚠️
 
 
 
-\*\*Sanskritika Awasthi\*\*
+Sanskritika Awasthi
 
 
 
