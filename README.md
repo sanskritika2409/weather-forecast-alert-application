@@ -1,3 +1,21 @@
+Your README is almost correct — the issue is \*\*not your images\*\*, it is \*\*Markdown formatting + file placement\*\*.
+
+
+
+I’ll fix everything and give you a \*\*clean, working, GitHub-rendered README.md\*\*.
+
+
+
+\---
+
+
+
+\# ✅ 🔥 FULL FIXED README.md (COPY–PASTE THIS)
+
+
+
+```markdown id="readmefinal"
+
 \# 🌦️ Weather Forecast \& Alert Application
 
 
@@ -30,11 +48,11 @@ The \*\*Weather Forecast \& Alert Application\*\* is a Python-based real-time we
 
 \- 🌬️ Wind Alerts  
 
-\- 🌫️ Humidity/Weather Condition Alerts  
+\- 🌫️ Weather Condition Alerts  
 
 
 
-It also includes a \*\*Streamlit dashboard\*\* for visualization and monitoring.
+It includes a \*\*Streamlit dashboard\*\* for visualization.
 
 
 
@@ -46,15 +64,17 @@ It also includes a \*\*Streamlit dashboard\*\* for visualization and monitoring.
 
 
 
-People and industries often face difficulties in tracking sudden weather changes. This system solves that by:
+Weather changes can affect travel, farming, logistics, and outdoor planning.
 
 
+
+This system solves that by:
 
 \- Providing real-time weather updates  
 
 \- Generating automated alerts  
 
-\- Helping in decision-making for travel, farming, logistics, and events  
+\- Helping in decision-making  
 
 
 
@@ -66,13 +86,13 @@ People and industries often face difficulties in tracking sudden weather changes
 
 
 
-\- 🚚 Logistics \& Transport Planning  
+\- 🚚 Logistics \& Transport  
 
-\- 🌾 Agriculture \& Farming  
+\- 🌾 Agriculture  
 
-\- 🎪 Event Management  
+\- 🎪 Event Planning  
 
-\- ✈️ Travel \& Aviation  
+\- ✈️ Aviation  
 
 \- ⚡ Disaster Management  
 
@@ -86,17 +106,17 @@ People and industries often face difficulties in tracking sudden weather changes
 
 
 
-\- 🌍 Real-time weather data via API  
+\- 🌍 Real-time weather API integration  
 
-\- ⚠️ Automated alert generation system  
+\- ⚠️ Smart alert system  
 
-\- 📊 Streamlit dashboard visualization  
+\- 📊 Streamlit dashboard  
 
-\- 📁 Clean report generation  
+\- 📁 Report generation  
 
 \- 🔄 Modular Python architecture  
 
-\- 🧪 Simulation mode (without API dependency)  
+\- 🧪 Simulation support  
 
 
 
@@ -108,17 +128,15 @@ People and industries often face difficulties in tracking sudden weather changes
 
 
 
-\- Python 3.11  
+\- Python  
 
-\- FastAPI (Backend API)  
+\- FastAPI  
 
-\- Streamlit (Dashboard UI)  
+\- Streamlit  
 
-\- Requests (API calls)  
+\- Requests  
 
-\- Pandas (data handling)  
-
-\- JSON handling  
+\- Pandas  
 
 \- OpenWeatherMap / Open-Meteo API  
 
@@ -130,27 +148,37 @@ People and industries often face difficulties in tracking sudden weather changes
 
 \## 📂 Project Structure
 
+
+
+```
+
+
+
 Weather Forecast \& Alert Application/
 
 │
 
-├── src/ # Core logic (API + rules)
+├── src/
 
-├── api/ # FastAPI backend
+├── api/
 
-├── dashboard/ # Streamlit UI
+├── dashboard/
 
-├── jobs/ # Scheduler scripts
+├── jobs/
 
-├── reports/ # Generated weather reports
+├── reports/
 
-├── images/ # Screenshots (IMPORTANT)
+├── images/
 
-├── main.py # Entry point
+├── main.py
 
-├── requirements.txt # Dependencies
+├── requirements.txt
 
 └── README.md
+
+
+
+````
 
 
 
@@ -168,31 +196,55 @@ Weather Forecast \& Alert Application/
 
 pip install -r requirements.txt
 
-2️⃣ Start FastAPI backend
+````
+
+
+
+\### 2️⃣ Run FastAPI backend
+
+
+
+```bash
 
 uvicorn api.app:app --reload
 
-3️⃣ Start Streamlit dashboard
+```
+
+
+
+\### 3️⃣ Run Streamlit dashboard
+
+
+
+```bash
 
 streamlit run dashboard/streamlit\_app.py
 
-🔐 API Setup
+```
 
-Create .env file
+
+
+\---
+
+
+
+\## 🔐 API Setup
+
+
+
+Create `.env` file:
+
+
+
+```text
 
 API\_KEY=your\_api\_key\_here
 
-Never upload .env to GitHub ❌
-
-\#📸 Screenshots
-
-\### 🏠 1. Streamlit Dashboard UI
-
-> Main dashboard showing weather input, current conditions, and alerts.
+```
 
 
 
-!\[Dashboard UI](images/dashboard.png)
+⚠️ Never upload `.env` to GitHub
 
 
 
@@ -200,29 +252,15 @@ Never upload .env to GitHub ❌
 
 
 
-\### 🌤️ 2. Weather API Output
-
-> Raw or formatted weather data fetched from API.
+\# 📸 Screenshots
 
 
 
-!\[Weather Output](images/weather.png)
+\## 🏠 Dashboard UI
 
 
 
-\---
-
-
-
-\### ⚠️ 3. Alert System Output
-
-> Automated alerts generated for rain, heatwave, wind, or humidity.
-
-
-
-!\[ Temp Trend \& Alerts](images/temp\_trend\_alert.png)
-
-!\[ Hour Data](images/hour\_data.png)
+!\[Dashboard](images/dashboard.png)
 
 
 
@@ -230,7 +268,39 @@ Never upload .env to GitHub ❌
 
 
 
-📊 Sample Output
+\## 🌤️ Weather API Output
+
+
+
+!\[Weather](images/weather.png)
+
+
+
+\---
+
+
+
+\## ⚠️ Alerts System
+
+
+
+!\[Temp Trend](images/temp\_trend\_alert.png)
+
+
+
+!\[Hourly Data](images/hour\_data.png)
+
+
+
+\---
+
+
+
+\## 📊 Sample Output
+
+
+
+```text
 
 City: Delhi
 
@@ -240,35 +310,59 @@ Condition: Clear Sky
 
 Alert: Heatwave Warning ⚠️
 
-💡 Key Learnings
-
-API integration in Python
-
-FastAPI backend development
-
-Real-time data processing
-
-Alert rule engine design
-
-Streamlit dashboard creation
-
-Project structuring for GitHub
-
-🚀 Future Improvements
-
-SMS/Email alerts
-
-Mobile app version
-
-AI-based weather prediction
-
-Map-based visualization
-
-Multi-city tracking
-
-👨‍💻 Author
+```
 
 
 
-Sanskritika Awasthi
+\---
+
+
+
+\## 💡 Key Learnings
+
+
+
+\* API integration in Python
+
+\* FastAPI backend development
+
+\* Real-time data processing
+
+\* Rule-based alert system
+
+\* Streamlit dashboard
+
+
+
+\---
+
+
+
+\## 🚀 Future Improvements
+
+
+
+\* SMS/Email alerts
+
+\* AI weather prediction
+
+\* Map visualization
+
+\* Mobile app version
+
+\* Multi-city tracking
+
+
+
+\---
+
+
+
+\## 👨‍💻 Author
+
+
+
+\*\*Sanskritika Awasthi\*\*
+
+
 
