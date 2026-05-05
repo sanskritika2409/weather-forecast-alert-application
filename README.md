@@ -1,22 +1,18 @@
-\# 🌦️ Weather Forecast \& Alert Application
+# 🌦️ Weather Forecast \& Alert Application
 
 
 
-!\[Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 
-!\[FastAPI](https://img.shields.io/badge/FastAPI-Backend-green.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green.svg)
 
-!\[Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red.svg)
 
-!\[Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
-
-
-
-\---
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen.
 
 
 
-\## 🚀 Project Overview
+## 🚀 Project Overview
 
 
 
@@ -24,51 +20,50 @@ The \*\*Weather Forecast \& Alert Application\*\* is a Python-based real-time sy
 
 
 
-\- 🌧️ Rain Alerts  
+ 🌧️ Rain Alerts  
 
-\- 🔥 Heatwave Alerts  
+ 🔥 Heatwave Alerts  
 
-\- 🌬️ Wind Alerts  
+ 🌬️ Wind Alerts  
 
-\- 🌫️ Weather Alerts  
-
-
-
-\---
+ 🌫️ Weather Alerts  
 
 
 
-\## 📸 Screenshots
 
 
 
-\### Dashboard
 
-!\[Dashboard](images/dashboard.png)
-
-
-
-\### Weather Output
-
-!\[Weather](images/weather.png)
+## 📸 Screenshots
 
 
 
-\### Alerts
+### Dashboard
 
-!\[Alerts](images/temp\_trend\_alert.png)
-
-
-
-\---
+![Dashboard](images/dashboard.png)
 
 
+### Weather Output
 
-\## ⚙️ Run Project
+![Weather](images/weather.png)
 
 
 
-```bash
+### Alerts
+
+![Alerts](images/temp\_trend\_alert.png)
+
+
+
+
+
+
+
+## ⚙️ Run Project
+
+
+
+
 
 pip install -r requirements.txt
 
